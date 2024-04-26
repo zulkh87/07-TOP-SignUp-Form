@@ -2,40 +2,84 @@
 
 /* https://www.joshwcomeau.com/css/custom-css-reset/ */
 
-*, *::before, *::after {
-    box-sizing: border-box;
-}
-
 *{
     margin: 0;
-}
-
-body {
-    line-height: 1.5;
-}
-
-img, picture, video, canvas, svg {
-    display: block;
-    max-width: 100%;
-}
-
-input, button, textarea, select {
-    font: inherit;
-}
-
-p, h1, h2, h3, h4, h5, h6 {
-    overflow-wrap: break-word;
-}
-
-#root, #__next {
-    isolation: isolate;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 
 /* CSS Reset Ends */
 
-/* placeholder for photo ref */
-.photo-ref-container {
-    display: none;
+/* Left Side Styling Begins */
+
+.main-container {
+    display: flex;
 }
-/* placeholder for photo ref ends*/
+
+.main-left {
+    flex: 40%;
+    background-image: url("./images/halie-west-25xggax4bSA-unsplash.jpg");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-direction: row;
+}
+
+.left-logo{
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    top: 30vh;
+}
+
+.left-logo hr{
+    width: 100%;
+    height: 100px;
+    border: none;
+    background-color: rgba(0,0,0,0.4);
+    position: absolute;
+    z-index: 3;
+}
+
+.left-logo img{
+    height: 70px;
+    display: inline;
+
+    /* position: absolute; */
+    z-index:4;
+}
+
+.left-logo p {
+    color: #fff;
+    font-size: 60px;
+    display: inline;
+    /* position: absolute; */
+    z-index: 4;
+}
+
+.photo-ref-container{
+    position: absolute;
+    top: 95vh;
+    width: 40%;
+}
+
+.photo-ref-container p{
+    color: #fff;
+    text-align: center;
+}
+
+.photo-ref-container p a{
+    color: #fff;
+}
+
+/* Left Side Styling Ends */
+
+/* Right Side Styling Begins */
+
+.main-right {
+    flex: 60%;
+}
+
+/* Right Side Styling Ends */
