@@ -82,4 +82,94 @@
     flex: 60%;
 }
 
+/* Header Styling Begins */
+
+header{
+    height: 30vh;
+    background-color: aliceblue;
+}
+
+header p:first-child{
+    padding-top: 100px;
+    padding-left: 20px;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    width: 80%;
+}
+
+header p:nth-child(2){
+    padding-top: 20px;
+    font-weight: bold;
+    letter-spacing: 1.2px;
+    padding-left: 20px;
+}
+
+/* Header Styling Ends */
+
+/* Form Styling Begins */
+
+form{
+    height: 30vh;
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.form-split-left{
+    flex: 20%;
+    display: block;
+}
+
+.form-split-left label, .form-split-left input{
+    display: block;
+    margin-bottom: 10px;
+}
+
+.form-split-right label, .form-split-right input{
+    margin-bottom: 10px;
+    display: block;
+}
+
+.form-split-left label, .form-split-right label{
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.form-split-right{
+    flex: 20%;
+    display: block;
+}
+
+form h4 {
+    display: block;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+
+/* Form Styling Ends */
+
+footer {
+    height: 40vh;
+    background-color: aliceblue;
+    padding-left: 20px;
+}
+
+footer button {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 10px 40px;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    background-color: #596D48;
+    font-weight: bold;
+}
+
+footer p a{
+    text-decoration: none;
+    color: #596D48;
+}
+
 /* Right Side Styling Ends */
