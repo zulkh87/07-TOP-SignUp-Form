@@ -141,9 +141,8 @@ form{
 }
 
 form h4 {
-    display: block;
+    align-self: flex-start;
     padding-top: 20px;
-    padding-bottom: 20px;
 }
 
 
